@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo VT 2017",
+  "main": "main.js",
+  "scripts": {
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --out=builds",
+    "package-win": "electron-packager .  --overwrite --asar --platform=win32 --arch=x64 --out=builds",    
+    "package-linux": "electron-packager .  --overwrite --asar --platform=linux --arch=x64 --out=builds"
+  },
+  "author": "Fernandh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.9"
+  }
+
+}
