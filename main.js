@@ -24,7 +24,7 @@ function createMainWindow()
 //Quand l'application est prete on ouvre la fenêtre
 app.on('ready', createMainWindow);
 
-//quand toutes fenêtre sont fermé, tous les processus en arrière plan sont stoppé(possibilité de changer le comportement en fonction de la plateforme)
+//quand toutes fenêtre sont fermés, tous les processus en arrière plan sont stoppés(possibilité de changer le comportement en fonction de la plateforme)
 app.on('window-all-closed', () => {app.quit(); });
 
 
